@@ -10,7 +10,7 @@ button.addEventListener('click', send, false)
 const socket = io();
 socket.on('smsStatus', function(data){
     if(data.error){
-		response.innerHTML = '<h5>Text message sent to ' + data.error + '</h5>';
+		response.innerHTML = '<strong>Success!</strong><h5>Text message sent to ' + data.error + '</h5>';
   	}else{
     	response.innerHTML = '<h5>Text message sent to ' + data.number + '</h5>';
   	}

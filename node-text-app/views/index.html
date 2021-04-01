@@ -11,17 +11,19 @@
     <div class="container">
         <h2>Send Message</h2>
         <!-- phone number input field -->
-        <input type="tel" name="number" id ="number" placeholder="Enter phone number">
+        <input type="tel" name="number" class="input" id ="number" placeholder="Enter phone number">
 
         <!-- message input field -->
-        <input type="text" name="msg" id ="message" placeholder="Enter message to send..">
+        <textarea  rows="4" cols="50"  name="msg" id ="message" placeholder="Enter message here..."></textarea>
 
         <!-- submit button -->
-        <input type="button" id ="button" value="Send">
-
+        <div class="button-container">
+            <button type="button" id ="button" value="Send">Send Message</button>
+        </div>
+       
         <!-- Socket.io response in a paragraph -->
         <p class="response">
-
+           
         </p>
     </div>
 
