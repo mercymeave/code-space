@@ -1,0 +1,21 @@
+{
+  "name": "google-translate-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "google-translate": "^3.0.0",
+    "nodemon": "^2.0.7",
+    "translate": "^1.2.3"
+  }
+}
